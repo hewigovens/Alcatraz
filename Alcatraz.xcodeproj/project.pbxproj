@@ -57,9 +57,25 @@
 		8AD5249F174102F9008B451F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AD524A2174102F9008B451F /* Localizable.strings */; };
 		8ADC22341A2AD5B800DB7BCA /* ATZPreviewImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC22331A2AD5B800DB7BCA /* ATZPreviewImageButton.m */; };
 		8AF670C919C2DE8A00E1C168 /* ATZSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF670C819C2DE8A00E1C168 /* ATZSegmentedControl.m */; };
+		BB97B24D1C7FEE810061D28B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB97B24C1C7FEE810061D28B /* AppDelegate.m */; };
+		BB97B2501C7FEE810061D28B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB97B24F1C7FEE810061D28B /* main.m */; };
+		BB97B2521C7FEE810061D28B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB97B2511C7FEE810061D28B /* Assets.xcassets */; };
+		BB97B2551C7FEE810061D28B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB97B2531C7FEE810061D28B /* MainMenu.xib */; };
+		BB97B25C1C7FEFBE0061D28B /* Alcatraz.xcplugin in Resources */ = {isa = PBXBuildFile; fileRef = 890A4B3F171F031300AFE577 /* Alcatraz.xcplugin */; };
+		BB97B2621C8011310061D28B /* AlcatrazPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB97B2611C8011310061D28B /* AlcatrazPrivate.m */; };
 		F0DF961E1B40416400DF68CC /* ATZSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DF961D1B40416400DF68CC /* ATZSegmentedCell.m */; };
 		F07E55521B551BA800161E61 /* ATZXcodePrefsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E55511B551BA800161E61 /* ATZXcodePrefsManager.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB97B25A1C7FEEE20061D28B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 890A4B37171F031300AFE577 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 890A4B3E171F031300AFE577;
+			remoteInfo = Alcatraz;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		079C9E02183D8BB8009F5A17 /* link_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = link_icon.png; sourceTree = "<group>"; };
@@ -144,6 +160,15 @@
 		8ADC22331A2AD5B800DB7BCA /* ATZPreviewImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATZPreviewImageButton.m; path = Views/ATZPreviewImageButton.m; sourceTree = "<group>"; };
 		8AF670C719C2DE8A00E1C168 /* ATZSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATZSegmentedControl.h; path = Views/ATZSegmentedControl.h; sourceTree = "<group>"; };
 		8AF670C819C2DE8A00E1C168 /* ATZSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATZSegmentedControl.m; path = Views/ATZSegmentedControl.m; sourceTree = "<group>"; };
+		BB97B2491C7FEE810061D28B /* AlcatrazApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlcatrazApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB97B24B1C7FEE810061D28B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB97B24C1C7FEE810061D28B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB97B24F1C7FEE810061D28B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB97B2511C7FEE810061D28B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB97B2541C7FEE810061D28B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BB97B2561C7FEE810061D28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB97B2601C8010D80061D28B /* AlcatrazPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlcatrazPrivate.h; sourceTree = "<group>"; };
+		BB97B2611C8011310061D28B /* AlcatrazPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlcatrazPrivate.m; sourceTree = "<group>"; };
 		F0DF961C1B40416300DF68CC /* ATZSegmentedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATZSegmentedCell.h; sourceTree = "<group>"; };
 		F0DF961D1B40416400DF68CC /* ATZSegmentedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATZSegmentedCell.m; sourceTree = "<group>"; };
 		F07E55501B551BA800161E61 /* ATZXcodePrefsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATZXcodePrefsManager.h; sourceTree = "<group>"; };
@@ -159,6 +184,13 @@
 				0C7AF650186B4E890064EE7B /* QuartzCore.framework in Frameworks */,
 				890A4B43171F031300AFE577 /* AppKit.framework in Frameworks */,
 				890A4B45171F031300AFE577 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB97B2461C7FEE810061D28B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				890A4B46171F031300AFE577 /* Alcatraz */,
+				BB97B24A1C7FEE810061D28B /* AlcatrazApp */,
 				890A4B41171F031300AFE577 /* Frameworks */,
 				890A4B40171F031300AFE577 /* Products */,
 			);
@@ -194,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				890A4B3F171F031300AFE577 /* Alcatraz.xcplugin */,
+				BB97B2491C7FEE810061D28B /* AlcatrazApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -361,6 +395,29 @@
 			name = en.lproj;
 			sourceTree = "<group>";
 		};
+		BB97B24A1C7FEE810061D28B /* AlcatrazApp */ = {
+			isa = PBXGroup;
+			children = (
+				BB97B24B1C7FEE810061D28B /* AppDelegate.h */,
+				BB97B24C1C7FEE810061D28B /* AppDelegate.m */,
+				BB97B2601C8010D80061D28B /* AlcatrazPrivate.h */,
+				BB97B2611C8011310061D28B /* AlcatrazPrivate.m */,
+				BB97B2511C7FEE810061D28B /* Assets.xcassets */,
+				BB97B2531C7FEE810061D28B /* MainMenu.xib */,
+				BB97B2561C7FEE810061D28B /* Info.plist */,
+				BB97B24E1C7FEE810061D28B /* Supporting Files */,
+			);
+			path = AlcatrazApp;
+			sourceTree = "<group>";
+		};
+		BB97B24E1C7FEE810061D28B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB97B24F1C7FEE810061D28B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -381,6 +438,24 @@
 			productReference = 890A4B3F171F031300AFE577 /* Alcatraz.xcplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
+		BB97B2481C7FEE810061D28B /* AlcatrazApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB97B2591C7FEE810061D28B /* Build configuration list for PBXNativeTarget "AlcatrazApp" */;
+			buildPhases = (
+				BB97B2451C7FEE810061D28B /* Sources */,
+				BB97B2461C7FEE810061D28B /* Frameworks */,
+				BB97B2471C7FEE810061D28B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB97B25B1C7FEEE20061D28B /* PBXTargetDependency */,
+			);
+			name = AlcatrazApp;
+			productName = AlcatrazApp;
+			productReference = BB97B2491C7FEE810061D28B /* AlcatrazApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -390,6 +465,11 @@
 				CLASSPREFIX = ATZ;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = supermar.in;
+				TargetAttributes = {
+					BB97B2481C7FEE810061D28B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
 			};
 			buildConfigurationList = 890A4B3A171F031300AFE577 /* Build configuration list for PBXProject "Alcatraz" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -397,6 +477,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 890A4B36171F031300AFE577;
 			productRefGroup = 890A4B40171F031300AFE577 /* Products */;
@@ -404,6 +485,7 @@
 			projectRoot = "";
 			targets = (
 				890A4B3E171F031300AFE577 /* Alcatraz */,
+				BB97B2481C7FEE810061D28B /* AlcatrazApp */,
 			);
 		};
 /* End PBXProject section */
@@ -430,6 +512,16 @@
 				8A6025B919C2978900D47F3F /* bitbucket_grayscale.png in Resources */,
 				8A6025BA19C2978900D47F3F /* bitbucket_grayscale@2x.png in Resources */,
 				8AD5249F174102F9008B451F /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB97B2471C7FEE810061D28B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB97B25C1C7FEFBE0061D28B /* Alcatraz.xcplugin in Resources */,
+				BB97B2521C7FEE810061D28B /* Assets.xcassets in Resources */,
+				BB97B2551C7FEE810061D28B /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,7 +566,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BB97B2451C7FEE810061D28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB97B2501C7FEE810061D28B /* main.m in Sources */,
+				BB97B2621C8011310061D28B /* AlcatrazPrivate.m in Sources */,
+				BB97B24D1C7FEE810061D28B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB97B25B1C7FEEE20061D28B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 890A4B3E171F031300AFE577 /* Alcatraz */;
+			targetProxy = BB97B25A1C7FEEE20061D28B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		890A4B49171F031300AFE577 /* InfoPlist.strings */ = {
@@ -491,6 +601,14 @@
 				8AD524A1174102F9008B451F /* en */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		BB97B2531C7FEE810061D28B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB97B2541C7FEE810061D28B /* Base */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -594,6 +712,64 @@
 			};
 			name = Release;
 		};
+		BB97B2571C7FEE810061D28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = AlcatrazApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mneorr.AlcatrazApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB97B2581C7FEE810061D28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = AlcatrazApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mneorr.AlcatrazApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -614,6 +790,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		BB97B2591C7FEE810061D28B /* Build configuration list for PBXNativeTarget "AlcatrazApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB97B2571C7FEE810061D28B /* Debug */,
+				BB97B2581C7FEE810061D28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

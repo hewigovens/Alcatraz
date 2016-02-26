@@ -34,7 +34,8 @@ static Alcatraz *sharedPlugin;
     static dispatch_once_t onceToken;
     NSString *currentApplicationName = [[NSBundle mainBundle] infoDictionary][@"CFBundleName"];
 
-    if ([currentApplicationName isEqual:@"Xcode"]) {
+    if ([currentApplicationName isEqualToString:@"Xcode"] ||
+        [currentApplicationName isEqualToString:@"AlcatrazApp"]) {
         dispatch_once(&onceToken, ^{
             sharedPlugin = [[self alloc] initWithBundle:plugin];
         });
