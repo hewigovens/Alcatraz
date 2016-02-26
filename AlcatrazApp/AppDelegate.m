@@ -16,4 +16,10 @@
     [AlcatrazPrivate loadAlcatrazBundle];
 }
 
+- (BOOL)applicationShouldHandleReopen:(NSApplication *)sender hasVisibleWindows:(BOOL)flag
+{
+    [[AlcatrazPrivate sharedPlugin] loadWindowAndPutInFront];
+    return YES;
+}
+
 @end
