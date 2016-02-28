@@ -798,6 +798,7 @@
 				BB97B2581C7FEE810061D28B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
