@@ -17,8 +17,7 @@ static AlcatrazPrivate *_instance;
 - (void)createMenuItem {}
 - (void)loadWindowAndPutInFront{}
 
-+ (void)loadAlcatrazBundle
-{
++ (void)loadAlcatrazBundle {
     
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
